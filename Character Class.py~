@@ -1,0 +1,17 @@
+import pygame, sys, os, math
+from pygame.locals import *
+
+class Character:
+	"""For the main character"""
+	def __init__(self):
+		self.hspeed = 0
+		self.x = 0
+		self.y = 0
+	
+	def run(self,direction)
+		if self.hspeed <= 3:
+			self.hspeed += .5
+		
+	def decelerate(self)
+		if abs(self.hspeed) > .5:
+			spelf.hspeed /= 2
